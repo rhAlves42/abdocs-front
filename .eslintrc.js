@@ -11,7 +11,7 @@ module.exports = {
         devDependencies: [
           '**/__tests__/*.{ts,tsx}',
           '**/__mock__/*.{ts,js}',
-          '**/testing-util/**/*.{ts,tsx}'
+          '**/testing-util/**/*.{ts,tsx}',
         ],
       },
     ],
@@ -42,10 +42,10 @@ module.exports = {
       { functions: false, classes: true, variables: true },
     ],
 
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    'jest/no-disabled-tests': 'warn',
+    'jest/no-focused-tests': 'error',
+    'jest/no-identical-title': 'error',
+    'jest/prefer-to-have-length': 'warn',
+    'jest/valid-expect': 'error',
   },
 };

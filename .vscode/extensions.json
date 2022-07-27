@@ -1,3 +1,7 @@
 {
-    "recommendations": ["dbaeumer.vscode-eslint", "firsttris.vscode-jest-runner", "editorconfig.editorconfig"],
-  }
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "firsttris.vscode-jest-runner",
+    "editorconfig.editorconfig"
+  ]
+}

@@ -1,13 +1,13 @@
-const {join} = require('path');
+const { join } = require('path');
 
 const { rootDir } = require('../utils/env');
 
 const aliasItems = {
-    '~src': join(rootDir, '/src'),
-    '~images': join(rootDir, '/src/images'),
-    '~components': join(rootDir, '/src/components'),
+  '~src': join(rootDir, '/src'),
+  '~images': join(rootDir, '/src/images'),
+  '~components': join(rootDir, '/src/components'),
 };
 
-module.exports = { 
-    aliasItems,
-}
+module.exports = {
+  aliasItems,
+};

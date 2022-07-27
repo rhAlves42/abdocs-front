@@ -1,6 +1,6 @@
 import React, { ComponentType, ReactElement, ReactNode } from 'react';
 import { render, RenderResult, RenderOptions } from '@testing-library/react';
-import AppTheme from '../components/app-theme';
+import AppTheme from '~components/app-theme';
 
 const renderWithProviders = (
   ui: ReactElement,

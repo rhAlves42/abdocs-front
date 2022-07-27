@@ -8,9 +8,9 @@ const rootDir = join(__dirname, '../../../');
 const webpackDir = join(__dirname, '../');
 
 module.exports = {
-    mode,
-    isDevServer,
-    isDev,
-    rootDir,
-    webpackDir,
+  mode,
+  isDevServer,
+  isDev,
+  rootDir,
+  webpackDir,
 };

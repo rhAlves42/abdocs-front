@@ -6,4 +6,4 @@ const prodConfig = require('./devtools/webpack/prod');
 const { isProd } = require('./devtools/webpack/utils/env');
 
 module.exports = () =>
-    isProd ? merge(baseConfig, prodConfig) : merge(commonConfig, devConfig);
+  isProd ? merge(baseConfig, prodConfig) : merge(commonConfig, devConfig);
