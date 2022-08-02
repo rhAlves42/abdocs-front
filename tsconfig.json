@@ -18,7 +18,8 @@
     "paths": {
       "~src/*": ["src/*"],
       "~images/*": ["src/images/*"],
-      "~components/*": ["src/components/*"]
+      "~components/*": ["src/components/*"],
+      "~testing-util/*": ["src/testing-util/*"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
